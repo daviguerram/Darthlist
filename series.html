@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Darthlist</title>
+    <link rel="stylesheet" href="css/estilo.css">
+    <script src="script.js"></script>
+</head>
+
+<body>
+    <header>
+        <h1><b> Darthlist</b>
+        </h1>
+        <hr>
+        <h2 class="sub1">
+            <b>Uma Lista de Séries que Talvez Você Deveria Ver</b>
+        </h2>
+        <hr>
+        <p id="warn">Clique com o botão direito em cima da série já assistida</p>
+        <div id="filtro-container">
+            <label for="genero">Filtrar por Gênero:</label>
+            <select class="genero-filtro">
+                <option value="todos">Todos</option>
+                <option value="acao">Ação</option>
+                <option value="biografia">Biografia</option>
+                <option value="comedia">Comédia</option>
+                <option value="documentario">Documentário</option>
+                <option value="drama">Drama</option>
+                <option value="fantasia">Fantasia</option>
+                <option value="ficcaocientifica">Ficção científica</option>
+                <option value="guerra">Guerra</option>
+                <option value="reality">Reality show</option>
+                <option value="super-heroi">Super-herói</option>
+                <option value="suspense">Suspense</option>
+                <option value="terror">Terror</option>
+
+            </select>
+            <button type="button" onclick="filtrarFilmes()">Filtrar</button>
+            <a href="index.html" class="hi"> Lista de Filmes</a>
+
+        </div>
+    </header>
+    <div class="original">
+        <h2 class="letra">#</h2>
+        <a href="series/13reasonswhy.html" class="drama">13 Reasons Why (2017)</a><br>
+        <hr>
+
+        <h2 class="letra">A</h2>
+        <a href="series/americanvandal.html" class="suspense">American Vandal (2017)</a><br><a href="series/andor.html"
+            class="ficcaocientifica">Andor (2022)</a><br>
+        <a href="series/areiamovedica.html" class="drama">Areia Movediça (2019)</a><br>
+        <a href="series/arnold.html" class="documentario">Arnold (2023)</a><br>
+        <a href="series/atlanta.html" class="drama">Atlanta (2016)</a><br>
+        <hr>
+
+        <h2 class="letra">B</h2>
+        <a href="series/bettercallsaul.html" class="drama">Better Call Saul (2015)</a><br>
+        <a href="series/blackmirror.html" class="ficcaocientifica">Black Mirror (2011)</a><br>
+        <a href="series/bojackhorseman.html" class="drama">BoJack Horseman (2014)</a><br>
+        <a href="series/breakingbad.html" class="drama">Breaking Bad – A Química do Mal (2008)</a><br>
+        <hr>
+
+        <h2 class="letra">C</h2>
+        <a href="series/casasamentoascegasbrasil.html" class="reality">Casamento às Cegas Brasil (2021)</a><br>
+        <a href="series/comosetornarumtirano.html" class="documentario"> Como se Tornar um Tirano (2021)</a><br>
+        <hr>
+         
+        <h2 class="letra">D</h2>
+        <a href="series/dahmerumcanibalamericano.html" class="biografia">Dahmer: Um Canibal Americano (2022)</a><br>
+        <a href="series/dark.html" class="ficcaocientifica">Dark (2017)</a><br>
+        <a href="series/devoltaaosanos70.html" class="comedia">De Volta aos Anos 70 (1998)</a><br>
+        <a href="series/deathnote.html" class="fantasia">Death Note (2006)</a><br>
+        <a href="series/demolidor.html" class="super-heroi">Demolidor (2015)</a><br>
+        <hr>
+
+        <h2 class="letra">E</h2>
+        <a href="series/euphoria.html" class="drama">Euphoria (2019)</a><br>
+        <hr>
+
+        <h2 class="letra">F</h2>
+        <a href="series/fisforfamily.html" class="comedia">F Is for Family (2015)</a><br>
+        <a href="series/familiamoderna.html" class="comedia">Família Moderna (2009)</a><br>
+        <a href="series/fleabag.html" class="drama">Fleabag (2016)</a><br>
+        <hr>
+
+        <h2 class="letra">G</h2>
+        <a href="series/gameofthrones.html" class="guerra">Game of Thrones (2011)</a><br>
+        <hr>
+
+        <h2 class="letra">H</h2>
+        <a href="series/historiadehorroramericana.html" class="terror">História de Horror Americana (2011)</a><br>
+        <a href="series/houseofcards.html" class="drama">House of Cards (2013)</a><br>
+        <hr>
+
+        <h2 class="letra">I</h2>
+        <a href="series/invencivel.html" class="super-heroi">Invencível (2021)</a><br>
+        <hr>
+
+        <h2 class="letra">J</h2>
+        <a href="series/jessicajones.html" class="super-heroi">Jessica Jones (2015)</a><br>
+        <hr>
+
+        <h2 class="letra">K</h2>
+        <hr>
+
+        <h2 class="letra">L</h2>
+        <a href="series/loki.html" class="fantasia">Loki (2021)</a><br>
+        <a href="series/lovedeathandrobots.html" class="ficcaocientifica">Love, Death and Robots (2019)</a><br>
+        <a href="series/lukecage.html" class="super-heroi">Luke Cage (2016)</a><br>
+        <hr>
+
+        <h2 class="letra">M</h2>
+        <a href="series/mindhunter.html" class="suspense">Mindhunter (2017)</a><br>
+        <hr>
+
+        <h2 class="letra">N</h2>
+        <hr>
+
+        <h2 class="letra">O</h2>
+        <a href="series/ojusticeiro.html" class="acao">O Justiceiro (2017)</a><br>
+        <a href="series/oshowdoslooneytunes.html" class="fantasia">O Show dos Looney Tunes (2011)</a><br>
+        <a href="series/obiwankenobi.html" class="ficcaocientifica">Obi Wan-Kenobi (2022)</a><br>
+        <a href="series/ossimpsons.html" class="comedia">Os Simpsons (1989)</a><br>
+        <hr>
+
+        <h2 class="letra">P</h2>
+        <a href="series/pacificador.html" class="acao">Pacificador (2022)</a><br>
+        <a href="series/punhodeferro.html" class="super-heroi">Punho de Ferro (2017)</a><br>
+        <hr>
+
+        <h2 class="letra">Q</h2>
+        <hr>
+
+        <h2 class="letra">R</h2>
+        <a href="series/rickandmorty.html" class="ficcaocientifica">Rick and Morty (2013)</a><br>
+        <a href="series/round6.html" class="acao">Round 6 (2021)</a><br>
+        <hr>
+
+        <h2 class="letra">S</h2>
+        <a href="series/scream.html" class="terror">Scream/Pânico: A Série de TV (2015)</a><br>
+        <a href="series/shehulk.html" class="super-heroi">She-Hulk
+            (2022)</a><br>
+        <a href="series/sherlock.html" class="suspense">Sherlock (2010)</a><br>
+        <a href="series/sintonia.html" class="drama">Sintonia (2019)</a><br>
+        <a href="series/southpark.html" class="comedia">South Park (1997)</a><br>
+        <a href="series/starwarsrebels.html" class="ficcaocientifica">Star Wars Rebels (2014)</a><br>
+        <a href="series/starwarsaguerradosclones.html" class="ficcaocientifica">Star Wars: A Guerra dos Clones
+            (2008)</a><br>
+        <a href="series/strangerthings.html" class="terror">Stranger Things (2016)</a><br>
+        <a href="series/succession.html" class="drama">Succession (2018)</a><br>
+        <hr>
+
+        <h2 class="letra">T</h2>
+        <a href="series/theboys.html" class="acao">The Boys (2019)</a><br>
+        <a href="series/theboysapresentadiabolicos.html" class="acao">The Boys Apresenta - Diabólicos (2022)</a><br>
+        <a href="series/thelastofus.html" class="drama">The Last of Us (2023)</a><br>
+        <a href="series/themandalorian.html" class="ficcaocientifica">The Mandalorian (2019)</a><br>
+        <a href="series/theoffice.html" class="comedia">The Office (2005)</a><br>
+        <a href="series/theumbrellaacademy.html" class="super-heroi">The Umbrella Academy (2019)</a><br>
+        <a href="series/thewalkingdead.html" class="terror">The Walking Dead (2010)</a><br>
+        <a href="series/truedetective.html" class="suspense">True Detective (2014)</a><br>
+        <hr>
+
+        <h2 class="letra">U</h2>
+        <hr>
+
+        <h2 class="letra">V</h2>
+        <a href="series/voce.html" class="suspense">Você (2018)</a><br>
+        <hr>
+
+        <h2 class="letra">W</h2>
+        <a href="series/wandavision.html" class="fantasia">WandaVision (2021)</a><br>
+        <a href="series/westworld.html" class="ficcaocientifica">Westworld (2016)</a><br>
+        <a href="series/whatif.html" class="super-heroi">What If...? (2021)</a><br>
+        <hr>
+
+        <h2 class="letra">X</h2>
+        <hr>
+
+        <h2 class="letra">Y</h2>
+        <hr>
+
+        <h2 class="letra">Z</h2>
+    </div>
+
+
+
+
+</body>
+
+</html>

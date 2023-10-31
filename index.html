@@ -1,0 +1,1104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Darthlist</title>
+    <link rel="stylesheet" href="css/estilo.css">
+    <script src="script.js"></script>
+</head>
+
+<body>
+    <header>
+        <h1><b> Darthlist</b>
+        </h1>
+        <hr>
+        <h2 class="sub1">
+            <b>Uma Lista de Filmes que Talvez Você Deveria Ver</b>
+        </h2>
+        <hr>
+        <p id="warn">Clique com o botão direito em cima do filme já assistido</p>
+        <div id="filtro-container">
+            <label for="genero">Filtrar por Gênero:</label>
+            <select class="genero-filtro">
+                <option value="todos">Todos</option>
+                <option value="acao">Ação</option>
+                <option value="aventura">Aventura</option>
+                <option value="biografia">Biografia</option>
+                <option value="comedia">Comédia</option>
+                <option value="documentario">Documentário</option>
+                <option value="drama">Drama</option>
+                <option value="fantasia">Fantasia</option>
+                <option value="ficcaocientifica">Ficção científica</option>
+                <option value="guerra">Guerra</option>
+                <option value="romance">Romance</option>
+                <option value="stand-up">Stand-up</option>
+                <option value="super-heroi">Super-herói</option>
+                <option value="suspense">Suspense</option>
+                <option value="terror">Terror</option>
+
+            </select>
+            <button type="button" onclick="filtrarFilmes()">Filtrar</button>
+            <a href="series.html" class="hi"> Lista de Séries</a>
+        </div>
+    </header>
+    <div class="original">
+        <h2 class="letra">#</h2>
+        <a href="filmes/10coisas.html" class="romance">10 Coisas que Eu Odeio em Você
+            (1999)</a><br>
+        <a href="filmes/12homenseumasentenca.html" class="suspense">12 Homens e Uma Sentença
+            (1957)</a><br>
+        <a href="filmes/1917.html" class="guerra">1917 (2019)</a><br>
+        <a href="filmes/300.html" class="guerra">300 (2006)</a><br>
+        <a href="filmes/8mile.html" class="drama">8 Mile – Rua das ilusões (2002)</a><br>
+        <hr>
+
+        <h2 class="letra">A</h2>
+        <a href="filmes/abaleia.html" class="drama">A Baleia (2022)</a><br>
+        <a href="filmes/abruxa.html" class="terror">A Bruxa (2015)</a><br>
+        <a href="filmes/acasadoterror.html" class="terror">A Casa do Terror (2019)</a><br>
+        <a href="filmes/achegada.html" class="suspense">A Chegada (2016)</a><br>
+        <a href="filmes/acorpurpura.html" class="drama">A Cor Púrpura (1985)</a><br>
+        <a href="filmes/aculpaedasestrelas.html" class="romance">A Culpa É das Estrelas
+            (2014)</a><br>
+        <a href="filmes/aentidade.html" class="terror">A Entidade (2012)</a><br>
+        <a href="filmes/aeradogelo2.html" class="fantasia">A Era do Gelo 2 (2006)</a><br>
+        <a href="filmes/aeradogelo4.html" class="fantasia">A Era do Gelo 4 (2012)</a><br>
+        <a href="filmes/afamiliaaddams.html" class="comedia">A Família Addams (1991)</a><br>
+        <a href="filmes/afastasticafabrica.html" class="fantasia">A Fantástica Fábrica de Chocolate
+            (2005)</a><br>
+        <a href="filmes/afirma.html" class="suspense">A Firma (1993)</a><br>
+        <a href="filmes/afugadasgalinhas.html" class="fantasia">A Fuga das Galinhas (2000)</a><br>
+        <a href="filmes/agarotanotrem.html" class="drama">A Garota no Trem (2016)</a><br>
+        <a href="filmes/ahoradopesadelo.html" class="terror">A Hora do Pesadelo (1984)</a><br>
+        <a href="filmes/ameninasilenciosa.html" class="drama">A Menina Silenciosa (2022)</a><br>
+        <a href="filmes/amortedodemonio.html" class="terror">A Morte do Demônio (2013)</a><br>
+        <a href="filmes/amortedodemonioaascensao.html" class="terror">A Morte do Demônio: A
+            Ascensão (2023)</a><br>
+        <a href="filmes/amortetedaparabens.html" class="terror">A Morte Te Dá Parabéns
+            (2017)</a><br>
+        <a href="filmes/anoivacadaver.html" class="terror">A Noiva-Cadáver (2005)</a><br>
+        <a href="filmes/anovaondadoimperador.html" class="fantasia">A Nova Onda do Imperador (2000)</a><br>
+        <a href="filmes/aorfa.html" class="terror">A Órfã (2009)</a><br>
+        <a href="filmes/aorigem.html" class="ficcaocientifica">A Origem (2010)</a><br>
+        <a href="filmes/aorigemdosguardioes.html" class="fantasia">A Origem dos
+            Guardiões (2012)</a><br>
+        <a href="filmes/apequenasereia.html" class="fantasia">A Pequena
+            Sereia (2023)</a><br>
+        <a href="filmes/aprova.html" class="acao"> À Prova de Morte (2007)</a><br>
+        <a href="filmes/aredesocial.html" class="drama">A Rede
+            Social (2010)</a><br>
+        <a href="filmes/aultimanoite.html" class="drama">A
+            Última
+            Noite
+            (2006) </a><br>
+        <a href="filmes/avozdosilencio.html" class="drama">A
+            Voz
+            do
+            Silêncio: Koe no Katachi (2016)</a><br>
+        <a href="filmes/adaonegro.html" class="fantasia">Adão
+            Negro (2022)</a><br>
+        <a href="filmes/advogadododiabo.html" class="suspense">Advogado
+            do
+            Diabo (1997)</a><br>
+        <a href="filmes/aftersun.html" class="drama">Aftersun (2022)</a><br>
+        <a href="filmes/air.html" class="biografia">AIR:
+            A
+            História
+            Por
+            Trás
+            do
+            Logo (2023)</a><br>
+        <a href="filmes/americanpie.html" class="comedia">American Pie – A Primeira Vez É Inesquecível (1999)</a><br>
+        <a href="filmes/amizadedesfeita.html" class="terror">Amizade
+            Desfeita (2014)</a><br>
+        <a href="filmes/amnesia.html" class="suspense">Amnésia (2000)</a><br>
+        <a href="filmes/animaisfantasticoseondehabitam.html" class="fantasia">Animais
+            Fantásticos
+            e
+            Onde
+            Habitam (2016)</a><br>
+        <a href="filmes/animaisfantasticososcrimesdegrindewald.html" class="fantasia">Animais
+            Fantásticos:
+            Os
+            Crimes
+            de
+            Grindewald (2018)</a><br>
+        <a href="filmes/animatrix.html" class="ficcaocientifica">Animatrix (2003)</a><br>
+        <a href="filmes/anjosdalei.html" class="comedia">Anjos
+            da
+            Lei (2012)</a><br>
+        <a href="filmes/anjosdalei2.html" class="comedia">Anjos
+            da
+            Lei
+            2 (2014)</a><br>
+        <a href="filmes/apocalypsenow.html" class="guerra">Apocalypse
+            Now (1979)</a><br>
+        <a href="filmes/aquaman.html" class="super-heroi">Aquaman (2018) </a><br>
+        <a href="filmes/argo.html" class="acao">Argo (2012)</a><br>
+        <a href="filmes/asaventurasdepi.html" class="aventura">As
+            Aventuras
+            de
+            Pi (2012)</a><br>
+        <a href="filmes/asbranquelas.html" class="comedia">As
+            Branquelas (2004) </a><br>
+        <a href="filmes/asbruxasdewestwick.html" class="fantasia">As
+            Bruxas
+            de
+            Westwick (1987)</a><br>
+        <a href="filmes/ascronicasdenarnia.html" class="fantasia">As
+            Crônicas
+            de
+            Nárnia:
+            O
+            Leão,
+            a
+            Feiticeira
+            e
+            o
+            Guarda-Roupa (2005)</a><br>
+        <a href="filmes/asduasfacesdeumcrime.html" class="suspense">As
+            Duas
+            Faces
+            de
+            Um
+            Crime (1996)</a><br>
+        <a href="filmes/asvantagensdeserinvisivel.html" class="drama">As
+            Vantagens
+            de
+            Ser
+            Invisível (2012)</a><br>
+        <a href="filmes/assassinosdaluadasflores.html">Assassinos da Lua das Flores (2023)</a><br>
+        <a href="filmes/assassinospornatureza.html" class="acao">Assassinos
+            por
+            Natureza (1994)</a><br>
+        <a href="filmes/ateoultimohomem.html" class="guerra">Até
+            o
+            Último
+            Homem (2016)</a><br>
+        <a href="filmes/aterrorizante.html" class="terror">Aterrorizante
+            2 (2022)</a><br>
+        <a href="filmes/avatar.html" class="fantasia">Avatar (2009)</a><br>
+        <a href="filmes/avatarocaminhodaagua.html" class="fantasia">Avatar:
+            O
+            Caminho
+            da
+            Água (2022)</a><br>
+        <a href="filmes/avesderapina.html" class="acao">Aves
+            de
+            Rapina:
+            Arlequina
+            e
+            Sua
+            Emancipação
+            Fantabulosa (2020)</a><br>
+        <hr>
+
+         
+        <h2 class="letra">B</h2>
+        <a href="filmes/barbie.html" class="comedia">Barbie (2023)</a><br>
+        <a href="filmes/bastardosinglorios.html" class="acao">Bastardos Inglórios (2009)</a><br>
+        <a href="filmes/batemaporta.html" class="suspense">Batem à Porta (2023)</a><br>
+        <a href="filmes/batmanmorteemfamilia.html" class="super-heroi"> Batman -
+            Morte
+            em
+            Família (2020)</a><br>
+
+        <a href="filmes/batman.html" class="super-heroi">Batman
+            (1989)</a><br>
+        <a href="filmes/batmanbegins.html" class="super-heroi"> Batman
+            Begins (2005)</a><br>
+        <a href="filmes/batmanvssuperman.html" class="super-heroi"> Batman
+            vs
+            Superman:
+            A
+            Origem
+            da
+            Justiça (2016)</a><br>
+        <a href="filmes/batmanamascaradofantasma.html" class="super-heroi">Batman:
+            A
+            Máscara
+            do
+            Fantasma (1993)</a><br>
+        <a href="filmes/ocavaleirodastrevas.html" class="super-heroi"> Batman:
+            O
+            Cavaleiro
+            das
+            Trevas (2008)</a><br>
+        <a href="filmes/cavaleirodastrevasparte1.html" class="super-heroi">Batman:
+            O
+            Cavaleiro
+            das
+            Trevas
+            –
+            Parte
+            1 (2012)</a><br>
+        <a href="filmes/ocavaleirodastrevasressurge.html" class="super-heroi">Batman:
+            O
+            Cavaleiro
+            das
+            Trevas
+            Ressurge (2012)</a><br>
+        <a href="filmes/batmanoretornodadupla.html" class="super-heroi">Batman:
+            O
+            Retorno
+            da
+            Dupla
+            Dinâmica (2016)</a><br>
+        <a href="filmes/oretornodocavaleirodastrevasparte2.html" class="super-heroi">Batman:
+            O
+            Retorno
+            do
+            Cavaleiro
+            das
+            Trevas,
+            Parte
+            2 (2013)</a><br>
+        <a href="filmes/longhalloween.html" class="super-heroi">Batman:
+            The
+            Long
+            Halloween,
+            Part
+            One (2021)</a><br>
+        <a href="filmes/longhalloweenpart2.html" class="super-heroi">Batman: The Long Halloween, Part Two (2021)</a><br>
+        <a href="filmes/batmanoretorno.html" class="super-heroi">Batman:
+            O
+            Retorno (1992)</a><br>
+        <a href="filmes/belavingança.html" class="drama">Bela
+            Vingança (2020)</a><br>
+        <a href="filmes/billburraovivonoredrocks.html" class="stand-up">Bill
+            Burr:
+            Live at
+            Red
+            Rocks (2022) </a><br>
+        <a href="filmes/birdman.html" class="drama">Birdman ou (A Inesperada Virtude da Ignorância) (2014)</a><br>
+        <a href="filmes/blackfish.html" class="documentario">Blackfish (2013)</a><br>
+        <a href="filmes/blackmirror.html" class="ficcaocientifica">Black
+            Mirror:
+            Bandersnatch (2018) </a><br>
+        <a href="filmes/blonde.html" class="drama">Blonde (2022)</a><br>
+        <a href="filmes/bobesponjaofilme.html" class="fantasia">Bob
+            Esponja -
+            O
+            Filme (2004) </a><br>
+        <a href="filmes/bohemianrhapsody.html" class="biografia">Bohemian
+            Rhapsody (2018) </a><br>
+        <a href="filmes/brilhoeternodeumamentesemlembranças.html" class="drama">Brilho
+            Eterno
+            de
+            uma
+            Mente
+            sem
+            Lembranças (2004) </a><br>
+        <a href="filmes/brinquedoassassino.html" class="terror">Brinquedo
+            Assassino
+            (1988)</a><br>
+        <a href="filmes/brinquedoassassino2.html" class="terror">Brinquedo
+            Assassino
+            2 (1990)</a><br>
+        <a href="filmes/brinquedoassassino3.html" class="terror">Brinquedo
+            Assassino
+            3 (1991)</a><br>
+        <a href="filmes/bumblebee.html" class="ficcaocientifica">Bumblebee (2018)</a><br>
+        <hr>
+
+         
+        <h2 class="letra">C</h2>
+        <a href="filmes/cadaver.html" class="suspense">Cadáver
+            (2020)</a><br>
+        <a href="filmes/caesdealuguel.html" class="suspense">Cães
+            de
+            Aluguel (1992)</a><br>
+        <a href="filmes/capitamarvel.html" class="super-heroi">Capitã
+            Marvel (2019)</a><br>
+        <a href="filmes/capitaoamerica.html" class="super-heroi">Capitão
+            América:
+            O
+            Primeiro
+            Vingador (2011)</a><br>
+        <a href="filmes/carros.html" class="fantasia">Carros (2006) </a><br>
+        <a href="filmes/carros2.html" class="fantasia">Carros
+            2 (2011)</a><br>
+        <a href="filmes/cenasdeumhomicidio.html" class="documentario">Cenas
+            de
+            um
+            Homicídio:
+            Uma
+            Família
+            Vizinha (2020)</a><br>
+        <a href="filmes/chinatown.html" class="suspense">Chinatown (1974) </a><br>
+        <a href="filmes/chrisrockbiggerandblacker.html" class="stand-up">Chris
+            Rock:
+            Bigger
+            and
+            Blacker (1999) </a><br>
+        <a href="filmes/chrisrockindignacaoseletiva.html" class="stand-up"> Chris
+            Rock:
+            Indignação
+            Seletiva (2023)</a><br>
+        <a href="filmes/chrisrockkillthemessenger.html" class="stand-up">Chris
+            Rock:
+            Kill
+            the
+            Messenger (2008)</a><br>
+        <a href="filmes/cidadededeus.html" class="drama">Cidade
+            de
+            Deus (2002)</a><br>
+        <a href="filmes/cinderela.html" class="fantasia">Cinderela
+            (1950)</a><br>
+        <a href="filmes/cisnenegro.html" class="drama">Cisne
+            Negro (2010)</a><br>
+        <a href="filmes/click.html" class="drama">Click (2006)</a><br>
+        <a href="filmes/close.html" class="drama">Close (2022) </a><br>
+        <a href="filmes/clown.html" class="terror">Clown (2014) </a><br>
+        <a href="filmes/clubedaluta.html" class="acao">Clube
+            da
+            Luta (1999) </a><br>
+        <a href="filmes/comoeueraantesdevoce.html" class="romance">Como
+            Eu
+            Era
+            Antes
+            de
+            Você (2016)</a><br>
+        <a href="filmes/comoperderumhomemem10dias.html" class="romance">Como
+            Perder
+            um
+            Homem
+            em
+            10
+            Dias (2003) </a><br>
+        <a href="filmes/comosetornaropioralunodaescola.html" class="comedia">Como
+            se
+            Tornar
+            o
+            Pior
+            Aluno
+            da
+            Escola (2017) </a><br>
+        <a href="filmes/constantine.html" class="fantasia">Constantine (2005)</a><br>
+        <a href="filmes/coraline.html" class="terror">Coraline e o Mundo Secreto (2009)</a><br>
+        <a href="filmes/coracaovalente.html" class="guerra">Coração
+            Valente (1995)</a><br>
+        <a href="filmes/coringa.html" class="drama">Coringa (2019)</a><br>
+        <a href="filmes/corpofechado.html" class="suspense">Corpo
+            Fechado (2000)</a><br>
+        <a href="filmes/corra.html" class="terror">Corra! (2017)</a><br>
+        <a href="filmes/correntedomal.html" class="terror">Corrente
+            do
+            Mal (2014)</a><br>
+        <a href="filmes/creed.html" class="drama">Creed:
+            Nascido
+            para
+            Lutar (2015)</a><br>
+        <a href="filmes/creed3.html" class="drama">Creed
+            III (2023)</a><br>
+        <a href="filmes/curtindoavidaadoidado.html" class="aventura">Curtindo
+            a
+            Vida
+            Adoidado (1986)</a><br>
+        <hr>
+
+        <h2 class="letra">D</h2>
+        <a href="filmes/davechapellesticksandstones.html" class="stand-up">Dave
+            Chapelle:
+            Sticks
+            and
+            Stones (2019) </a><br>
+        <a href="filmes/dawnofthedead.html" class="terror">Dawn
+            of
+            the
+            Dead
+            (1978)</a><br>
+        <a href="filmes/dazedandconfused.html" class="comedia">Dazed
+            and
+            Confused (1993) </a><br>
+        <a href="filmes/deadpool.html" class="acao">Deadpool (2016)</a><br>
+        <a href="filmes/deadpool2.html" class="acao">Deadpool 2 (2018)</a><br>
+        <a href="filmes/detroitrockcity.html" class="aventura">Detroit Rock City (1999)</a><br>
+        <a href="filmes/devoltaprofuturo.html" class="ficcaocientifica">De
+            Volta
+            pro
+            Futuro (1985)</a><br>
+        <a href="filmes/diariodeumbanana.html" class="comedia">Diário
+            de
+            Um
+            Banana
+            (2010)</a><br>
+        <a href="filmes/diariodeumbanana3.html" class="comedia">Diário
+            de
+            Um
+            Banana:
+            Dias
+            de
+            Cão (2012)</a><br>
+        <a href="filmes/diariodeumbanana2.html" class="comedia">Diário
+            de
+            Um
+            Banana:
+            Rodrick
+            é
+            o
+            Cara (2011)</a><br>
+        <a href="filmes/divertidamente.html" class="fantasia">Divertidamente (2015)</a><br>
+        <a href="filmes/djangolivre.html" class="acao">Django
+            Livre (2012)</a><br>
+        <a href="filmes/docevinganca.html" class="terror">Doce
+            Vingança
+            (2010)</a><br>
+        <a href="filmes/donniebrasco.html" class="drama">Donnie
+            Brasco (1997)</a><br>
+        <a href="filmes/donniedarko.html" class="suspense">Donnie
+            Darko (2001)</a><br>
+        <a href="filmes/doutorestranho.html" class="super-heroi">Doutor
+            Estranho (2016)</a><br>
+        <a href="filmes/drive.html" class="acao">Drive (2011)</a><br>
+        <hr>
+         
+        <h2 class="letra">E</h2>
+        <a href="filmes/efeitoborboleta.html" class="drama">Efeito
+            Borboleta (2004)</a><br>
+
+        <a href="filmes/elcamino.html" class="drama">El
+            Camino:
+            A
+            Breaking
+            Bad
+            Movie (2019)</a><br>
+        <a href="filmes/elefante.html" class="drama">Elefante (2003)</a><br>
+        <a href="filmes/eli.html" class="suspense">Eli (2019)</a><br>
+        <a href="filmes/elvis.html" class="biografia">Elvis (2022)</a><br>
+        <a href="filmes/enrolados.html" class="fantasia">Enrolados (2010)</a><br>
+        <a href="filmes/entrefacasesegredos.html" class="suspense">Entre
+            Facas
+            e
+            Segredos (2019)</a><br>
+        <a href="filmes/entrevistacomovampiro.html" class="fantasia">Entrevista
+            com
+            o
+            Vampiro (1994)</a><br>
+        <a href="filmes/eraumavezemhollywood.html" class="drama">Era
+            uma
+            Vez
+            em...
+            Hollywood (2019)</a><br>
+        <a href="filmes/escoladorock.html" class="comedia">Escola
+            de
+            Rock (2003)</a><br>
+        <a href="filmes/esqueceramdemim.html" class="comedia">Esqueceram
+            de
+            Mim (1990)</a><br>
+        <a href="filmes/esqueceramdemim2.html" class="aventura">Esqueceram
+            de
+            Mim
+            2 - Perdido em Nova York (1992)</a><br>
+        <a href="filmes/sebebernaoceie.html" class="comedia">Especial
+            de
+            Natal:
+            Se
+            Beber,
+            Não
+            Ceie (2018)</a><br>
+        <a href="filmes/estomago.html" class="drama">Estômago (2007)</a><br>
+        <a href="filmes/eternos.html" class="super-heroi">Eternos (2021)</a><br>
+        <a href="filmes/everybodyseverything.html" class="documentario">Everybody's
+            Everything (2019)</a><br>
+        <a href="filmes/exmachina.html" class="ficcaocientifica">Ex_Machina:
+            Extinto
+            Artifical (2014)</a><br>
+        <a href="filmes/extremelywickedshockinglyevilandvile.html" class="biografia">Extremely
+            Wicked,
+            Shockingly
+            Evil
+            and
+            Vile (2019)</a><br>
+        <hr>
+
+        <h2 class="letra">F</h2>
+        <a href="filmes/falecomigo.html" class="terror">Fale Comigo (2022)</a><br>
+        <a href="filmes/fivenightsatfreddys.html" class="terror">Five Nights at Freddy's - O Pesadelo Sem Fim
+            (2023)</a><br>
+        <a href="filmes/fogocontrafogo.html" class="acao">Fogo
+            contra
+            Fogo (1995)</a><br>
+        <a href="filmes/fomedepoder.html" class="biografia">Fome
+            de
+            Poder (2016)</a><br>
+        <a href="filmes/fragmentado.html" class="suspense">Fragmentado (2016)</a><br>
+        <a href="filmes/frozen.html" class="fantasia">Frozen
+            –
+            Uma
+            Aventura
+            Congelante (2013)</a><br>
+        <hr>
+         
+        <h2 class="letra">G</h2>
+        <a href="filmes/garotaexemplar.html" class="suspense">Garota
+            Exemplar (2014)</a><br>
+        <a href="filmes/gatodebotas.html" class="fantasia">Gato
+            de
+            Botas (2011)</a><br>
+        <a href="filmes/gatodebotas2.html" class="fantasia">Gato
+            de
+            Botas
+            2:
+            O
+            Último
+            Pedido (2022)</a><br>
+        <a href="filmes/gigantesdeaço.html" class="ficcaocientifica">Gigantes
+            de
+            Aço (2011)</a><br>
+        <a href="filmes/granturismo.html" class="acao">Gran Turismo: De Jogador a Corredor (2023)</a><br>
+        <a href="filmes/greenbook.html" class="drama">Green
+            Book:
+            O
+            Guia (2018)</a><br>
+        <a href="filmes/guardioesdagalaxia.html" class="super-heroi">Guardiões
+            da
+            Galáxia (2014)</a><br>
+        <a href="filmes/guardioesdagalaxia2.html" class="super-heroi">Guardiões
+            da
+            Galáxia
+            Vol.
+            2 (2017)</a><br>
+        <a href="filmes/guardioesdagalaxia3.html" class="super-heroi">Guardiões
+            da
+            Galáxia
+            Vol.
+            3 (2023)</a><br>
+        <a href="filmes/guerranasestrelasoimperiocontraataca.html" class="ficcaocientifica">Guerra
+            nas
+            Estrelas:
+            O
+            Império
+            Contra-Ataca (1980)</a><br>
+        <hr>
+         
+        <h2 class="letra">H</h2>
+        <a href="filmes/halloweenanoitedoterror.html" class="terror">Halloween
+            –
+            A
+            Noite
+            do
+            Terror (1978)</a><br>
+        <a href="filmes/halloween.html" class="terror">Halloween (2018)</a><br>
+        <a href="filmes/hansolo.html" class="ficcaocientifica">Han
+            Solo:
+            Uma
+            História
+            Star
+            Wars (2018)</a><br>
+        <a href="filmes/happyfeet.html" class="fantasia">Happy
+            Feet (2006)</a><br>
+        <a href="filmes/harrypottereacamarasecreta.html" class="fantasia">Harry
+            Potter
+            e
+            a
+            Câmara
+            Secreta (2002)</a><br>
+        <a href="filmes/harrypottereaordemdafenix.html" class="fantasia">Harry
+            Potter
+            e
+            a
+            Ordem
+            da
+            Fênix (2007)</a><br>
+        <a href="filmes/harrypottereapedrafilosofal.html" class="fantasia">Harry
+            Potter
+            e
+            a
+            Pedra
+            Filosofal (2001)</a><br>
+        <a href="filmes/harrypottereasreliquiasdamorte.html" class="fantasia">Harry
+            Potter
+            e
+            as
+            Relíquias
+            da
+            Morte:
+            Parte 1 (2010)</a><br>
+        <a href="filmes/harrypottereasreliquiasdamorte2.html" class="fantasia">Harry
+            Potter
+            e
+            as
+            Relíquias
+            da
+            Morte:
+            Parte
+            2 (2011)</a><br>
+        <a href="filmes/harrypottereocalicedefogo.html" class="fantasia">Harry
+            Potter
+            e
+            o
+            Cálice
+            de
+            Fogo (2005)</a><br>
+        <a href="filmes/harrypottereoenigmadoprincipe.html" class="fantasia">Harry
+            Potter
+            e
+            o
+            Enigma
+            do
+            Príncipe (2009)</a><br>
+        <a href="filmes/harrypottereoprisioneirodeazkaban.html" class="fantasia">Harry
+            Potter
+            e
+            o
+            Prisioneiro
+            de
+            Azkaban (2004)</a><br>
+        <a href="filmes/hereditario.html" class="terror">Hereditário (2018)</a><br>
+        <a href="filmes/highschoolmusical.html" class="romance">High
+            School
+            Musical (2006)</a><br>
+        <a href="filmes/historiasassustadorasparacontarnoescuro.html" class="terror">Histórias
+            Assustadoras
+            para
+            Contar
+            no
+            Escuro (2019)</a><br>
+        <a href="filmes/homemaranha.html" class="super-heroi">Homem-Aranha (2002)</a><br>
+        <a href="filmes/homemaranha2.html" class="super-heroi">Homem-Aranha
+            2 (2004)</a><br>
+        <a href="filmes/homemaranha3.html" class="super-heroi">Homem-Aranha
+            3 (2007)</a><br>
+        <a href="filmes/homemaranhaatravesdoaranhaverso.html" class="super-heroi">Homem-Aranha:
+            Através
+            do
+            Aranhaverso (2023)</a><br>
+        <a href="filmes/homemaranhadevoltaaolar.html" class="super-heroi">Homem-Aranha:
+            De
+            Volta
+            ao
+            Lar (2017)</a><br>
+        <a href="filmes/homemaranhalongedecasa.html" class="super-heroi">Homem-Aranha:
+            Longe
+            de
+            Casa (2019)</a><br>
+        <a href="filmes/homemaranhasemvoltapracasa.html" class="super-heroi">Homem-Aranha:
+            Sem
+            Volta
+            pra
+            Casa (2021)</a><br>
+        <a href="filmes/homemformiga.html" class="super-heroi">Homem-Formiga (2015)</a><br>
+        <a href="filmes/homemdeferro.html" class="super-heroi">Homem
+            de
+            Ferro (2008)</a><br>
+        <a href="filmes/homemdeferro2.html" class="super-heroi">Homem
+            de
+            Ferro
+            2 (2010)</a><br>
+        <a href="filmes/horadorush.html" class="comedia">Hora
+            do
+            Rush (1998)</a><br>
+        <a href="filmes/hotgirlswanted.html" class="documentario">Hot
+            Girls
+            Wanted (2015)</a><br>
+        <a href="filmes/hush.html" class="terror">Hush: A Morte Ouve (2016)</a><br>
+        <hr>
+        <h2 class="letra">I</h2>
+        <a href="filmes/iammother.html" class="ficcaocientifica">I
+            Am
+            Mother (2019)</a><br>
+        <a href="filmes/ilhadomedo.html" class="suspense">Ilha
+            do
+            Medo (2010)</a><br>
+        <a href="filmes/indianajoneseareliquiadodestino.html" class="aventura">Indiana
+            Jones
+            e
+            a
+            Relíquia
+            do
+            Destino (2023)</a><br>
+        <a href="filmes/infiltradonaklan.html" class="drama">Infiltrado na Klan (2018)</a><br>
+        <a href="filmes/insomnia.html" class="suspense">Insomnia (2002)</a><br>
+        <a href="filmes/intrigasdeestado.html" class="suspense">Intrigas
+            de
+            Estado (2009)</a><br>
+        <a href="filmes/irmaourso.html" class="fantasia">Irmão
+            Urso (2003)</a><br>
+        <a href="filmes/itacoisa.html" class="terror">It
+            –
+            A
+            Coisa (2017)</a><br>
+        <hr>
+
+        <h2 class="letra">J</h2>
+        <a href="filmes/jackiebrown.html" class="suspense">Jackie
+            Brown (1997)</a><br>
+        <a href="filmes/jerrymaguire.html" class="drama">Jerry
+            Maguire:
+            A
+            Grande
+            Virada (1996)</a><br>
+
+        <a href="filmes/jogoperigoso.html" class="drama">Jogo
+            Perigoso (2017)</a><br>
+        <a href="filmes/jogosmortais.html" class="terror">Jogos
+            Mortais (2004)</a><br>
+        <a href="filmes/jogosmortais2.html" class="terror">Jogos
+            Mortais
+            2 (2005)</a><br>
+        <a href="filmes/jogosmortais3.html" class="terror">Jogos
+            Mortais
+            3 (2006)</a><br>
+        <a href="filmes/jogosvorazes.html" class="acao">Jogos
+            Vorazes (2012)</a><br>
+        <a href="filmes/jogosvorazes2.html" class="acao">Jogos
+            Vorazes
+            –
+            Em
+            Chamas (2013)</a><br>
+        <a href="filmes/jogosvorazes4.html" class="acao">Jogos
+            Vorazes:
+            A
+            Esperança
+            –
+            O
+            Final (2015)</a><br>
+        <a href="filmes/jogosvorazes3.html" class="suspense">Jogos
+            Vorazes:
+            A
+            Esperança
+            –
+            Parte
+            1 (2014)</a><br>
+        <a href="filmes/johnwick.html" class="acao">John
+            Wick
+            –
+            De
+            Volta
+            ao
+            Jogo (2014)</a><br>
+        <a href="filmes/johnwick4.html" class="acao">John
+            Wick
+            4:
+            Baba
+            Yaga (2023)</a><br>
+        <a href="filmes/johnwick2.html" class="acao">John
+            Wick:
+            Um
+            Novo
+            Dia
+            Para
+            Matar (2017)</a><br>
+        <a href="filmes/joiasbrutas.html" class="drama">Jóias Brutas (2019)</a><br>
+        <a href="filmes/judaseomessiasnegro.html" class="suspense">Judas
+            e
+            o
+            Messias
+            Negro (2021)</a><br>
+        <a href="filmes/jurassicworld.html" class="ficcaocientifica">Jurassic
+            World:
+            O
+            Mundo
+            dos
+            Dinossauros (2015)</a><br>
+        <a href="filmes/justicaparatodos.html" class="drama">Justiça
+            para
+            Todos (1979)</a><br>
+        <hr>
+        <h2 class="letra">K</h2>
+        <a href="filmes/kids.html" class="drama">Kids (1995)</a><br>
+        <a href="filmes/killbill1.html" class="acao">Kill
+            Bill
+            –
+            Volume
+            1 (2003)</a><br>
+        <a href="filmes/killbill2.html" class="acao">Kill
+            Bill:
+            Volume
+            2 (2004)</a><br>
+        <a href="filmes/kingrichard.html" class="biografia">King
+            Richard:
+            Criando
+            Campeãs (2021)</a><br>
+        <hr>
+        <h2 class="letra">L</h2>
+        <a href="filmes/lacosdeternura.html" class="drama">Laços de Ternura (1983)</a><br>
+        <a href="filmes/lalaland.html" class="romance">La La Land: Cantando Estações (2016)</a><br>
+        <a href="filmes/laranjamecanica.html" class="drama">Laranja Mecânica (1971)</a><br>
+        <a href="filmes/legobatman.html" class="super-heroi">LEGO Batman: O Filme (2017)</a><br>
+        <a href="filmes/ligadajusticadozacksnyder.html" class="super-heroi">Liga da Justiça do Zack Snyder
+            (2021)</a><br>
+        <a href="filmes/ligadajusticapontodeignicao.html" class="super-heroi">Liga da Justiça: Ponto de Ignição
+            (2013)</a><br>
+        <a href="filmes/living.html" class="drama">Living (2022)</a><br>
+        <a href="filmes/logan.html" class="super-heroi">Logan (2017)</a><br>
+        <hr>
+          <h2 class="letra">M</h2>
+        <a href="filmes/m3gan.html" class="terror">M3GAN (2022)</a><br>
+        <a href="filmes/madmaxestradadafuria.html" class="acao">Mad Max: Estrada da
+            Fúria (2015)</a><br>
+        <a href="filmes/madagascar.html" class="fantasia">Madagascar (2005)</a><br>
+        <a href="filmes/mank.html" class="drama">Mank (2020)</a><br>
+        <a href="filmes/marceltheshellwithshoeson.html" class="fantasia">Marcel the Shell with Shoes On (2021)</a><br>
+        <a href="filmes/matrix.html" class="ficcaocientifica">Matrix (1999)</a><br>
+        <a href="filmes/megamente.html" class="comedia">Megamente (2010)</a><br>
+        <a href="filmes/melhoreimpossivel.html" class="drama">Melhor é Impossível (1997)</a><br>
+        <a href="filmes/meninasmalvadas.html" class="comedia">Meninas Malvadas (2004)</a><br>
+        <a href="filmes/meracoincidencia.html" class="comedia">Mera Coincidência (1997)</a><br>
+        <a href="filmes/meumalvadofavorito.html" class="comedia">Meu Malvado Favorito (2010)</a><br>
+        <a href="filmes/millenium.html" class="suspense">Millenium – Os Homens que Não Amavam as Mulheres (2011)</a><br>
+        <a href="filmes/missviolence.html" class="suspense">Miss Violence (2013)</a><br>
+        <a href="filmes/missaoimpossivel.html" class="acao">Missão Impossível (1996)</a><br>
+        <a href="filmes/missaoimpossivelprotocolofantasma.html" class="acao">Missão Impossível - Protocolo Fantasma
+            (2011)</a><br>
+        <a href="filmes/missaoimpossivelefeitofallout.html" class="acao">Missão: Impossível - Efeito Fallout
+            (2018)</a><br>
+        <a href="filmes/missaoimpossivelnacaosecreta.html" class="acao">Missão: Impossível - Nação Secreta
+            (2015)</a><br>
+        <a href="filmes/missaoimpossivel3.html" class="acao">Missão: Impossível 3 (2006)</a><br>
+        <a href="filmes/mogliomeninolobo.html" class="fantasia">Mogli – O Menino Lobo (1967)</a><br>
+        <a href="filmes/mommy.html" class="drama">Mommy (2014)</a><br>
+        <a href="filmes/monstrossa.html" class="fantasia">Monstros S.A (2001)</a><br>
+        <a href="filmes/moonlight.html" class="drama">Moonlight: Sob a Luz do Luar (2016)</a><br>
+        <a href="filmes/mulhermaravilha.html" class="super-heroi">Mulher-Maravilha (2017)</a><br>
+        <hr>  
+        <h2 class="letra">N</h2>
+        <a href="filmes/nanaturezaselvagem.html" class="aventura">Na Natureza Selvagem (2007)</a><br>
+        <a href="filmes/nadadenovonofront.html" class="guerra">Nada de Novo no Front (2022) </a><br>
+        <a href="filmes/nanking.html" class="documentario">Nanking (2007)</a><br>
+        <a href="filmes/naonaoolhe.html" class="terror">Não! Não Olhe! (2022)</a><br>
+        <a href="filmes/naoolhepracima.html" class="comedia">Não Olhe pra Cima (2021)</a><br>
+        <a href="filmes/nasceumaestrela.html" class="romance">Nasce uma Estrela (2018)</a><br>
+        <a href="filmes/noitesbrutais.html" class="terro">Noites Brutais (2022)</a><br>
+        <a href="filmes/nos.html" class="terror">Nós (2019)</a><br>
+        <hr>
+        <h2 class="letra">O</h2>
+        <a href="filmes/oabutre.html" class="acao">O Abutre (2014)</a><br>
+        <a href="filmes/oautodacompadecida.html" class="comedia">O Auto da Compadecida (2000)</a><br>
+        <a href="filmes/odiabodecadadia.html" class="drama">O Diabo de Cada Dia (2020)</a><br>
+        <a href="filmes/oespetacularhomemaranha.html" class="super-heroi">O Espetacular Homem-Aranha (2012)</a><br>
+        <a href="filmes/oespetacularhomemaranha2.html" class="super-heroi">O Espetacular Homem-Aranha 2 – A Ameaça de
+            Electro (2014)</a><br>
+        <a href="filmes/oesqudraosuicida.html" class="acao">O Esquadrão Suicida (2021)</a><br>
+        <a href="filmes/oestranhomundodejack.html" class="fantasia">O Estranho Mundo de Jack (1993)</a><br>
+        <a href="filmes/ofarol.html" class="drama">O Farol (2019)</a><br>
+        <a href="filmes/ograndehotelbudapeste.html" class="drama">O Grande Hotel Budapeste (2014)</a><br>
+        <a href="filmes/ograndetruque.html" class="suspense">O Grande Truque (2006)</a><br>
+        <a href="filmes/ogrinch.html" class="fantasia">O Grinch (2000)</a><br>
+        <a href="filmes/ohobbitabatalhadoscincoexercitos.html" class="fantasia">O Hobbit: A Batalha dos Cinco Exércitos
+            (2014)</a><br>
+        <a href="filmes/ohobbitumajornadainesperada.html" class="fantasia">O Hobbit: Uma Jornada Inesperada
+            (2012)</a><br>
+        <a href="filmes/oiluminado.html" class="terror">O Iluminado (1980)</a><br>
+        <a href="filmes/oimpossivel.html" class="drama">O Impossível (2012)</a><br>
+        <a href="filmes/oirlandes.html" class="drama">O Irlandês (2019)</a><br>
+        <a href="filmes/ojuiz.html" class="drama">O Juíz (2014)</a><br>
+        <a href="filmes/olabirintodofauno.html" class="fantasia">O Labirinto do Fauno (2006)</a><br>
+        <a href="filmes/olobodewallstreet.html" class="comedia">O Lobo de Wall Street (2013)</a><br>
+        <a href="filmes/olutador.html" class="drama">O Lutador (2008)</a><br>
+        <a href="filmes/omaskara.html" class="fantasia">O Máskara (1994)</a><br>
+        <a href="filmes/omassacredaserraeletrica.html" class="terror">O Massacre da Serra Elétrica (1974)</a><br>
+        <a href="filmes/omeninodopijamalistrado.html" class="drama">O Menino do Pijama Listrado (2008)</a><br>
+        <a href="filmes/omensageiro.html" class="drama">O Mensageiro (2009)</a><br>
+        <a href="filmes/opequenoprincipe.html" class="drama">O Pequeno Príncipe (2015)</a><br>
+        <a href="filmes/opoco.html" class="suspense">O Poço (2019)</a><br>
+        <a href="filmes/opoderosochefao.html" class="drama">O Poderoso Chefão (1972)</a><br>
+        <a href="filmes/opoderosochefao2.html" class="drama">O Poderoso Chefão 2 (1974)</a><br>
+        <a href="filmes/opoderosochefao3.html" class="drama">O Poderoso Chefão 3 (1990)</a><br>
+        <a href="filmes/opovocontralarryflint.html" class="biografia">O Povo contra Larry Flint (1996)</a><br>
+        <a href="filmes/opredadoracacada.html" class="acao">O Predador: A Caçada (2022)</a><br>
+        <a href="filmes/oprimeiromentiroso.html" class="comedia">O Primeiro Mentiroso (2009)</a><br>
+        <a href="filmes/oquartodejack.html" class="drama">O Quarto de Jack (2015)</a><br>
+        <a href="filmes/oretornodejedi.html" class="ficcaocientifica">O Retorno de Jedi (1983)</a><br>
+        <a href="filmes/osacrificiodocervosagrado.html" class="suspense">O Sacrifício do Cervo Sagrado (2017)</a><br>
+        <a href="filmes/osegredodosanimais.html" class="fantasia">O Segredo dos Animais (2006)</a><br>
+        <a href="filmes/osenhordosaneisasociedadedoanel.html" class="fantasia">O Senhor dos Anéis: A Sociedade do Anel
+            (2001)</a><br>
+        <a href="filmes/osenhordosaneisasduastorres.html" class="fantasia">O Senhor dos Anéis: As Duas Torres
+            (2002)</a><br>
+        <a href="filmes/osenhordosaneisoretornodorei.html" class="fantasia">O Senhor dos Anéis: O Retorno do Rei
+            (2003)</a><br>
+        <a href="filmes/oshowdetruman.html" class="drama">O Show de Truman (1998)</a><br>
+        <a href="filmes/osilenciodosinocentes.html" class="suspense">O Silêncio dos Inocentes (1991)</a><br>
+        <a href="filmes/osomdosilencio.html" class="drama">O Som do Silêncio (2019)</a><br>
+        <a href="filmes/ondeosfracosnaotemvez.html" class="suspense">Onde os Fracos Não Tem Vez (2007)</a><br>
+        <a href="filmes/operacaodragao.html" class="acao">Operação Dragão (1973)</a><br>
+        <a href="filmes/os7dechicago.html" class="drama">Os 7 de Chicago (2020)</a><br>
+        <a href="filmes/os8odiados.html" class="suspense">Os 8 Odiados (2015)</a><br>
+        <a href="filmes/osbansheesdeinisherin.html" class="drama">Os Banshees de Inisherin (2022)</a><br>
+        <a href="filmes/osbonscompanheiros.html" class="acao">Os Bons Companheiros (1990)</a><br>
+        <a href="filmes/oscacadoresdaarcaperdida.html" class="aventura">Os Caçadores da Arca Perdida (1981)</a><br>
+        <a href="filmes/osincriveis.html" class="super-heroi">Os Incríveis (2004)</a><br>
+        <a href="filmes/osinfiltrados.html" class="suspense">Os Infiltrados (2006)</a><br>
+        <a href="filmes/osjovenstitasemacaonoscinemas.html" class="super-heroi">Os Jovens Titãs em Ação! Nos Cinemas
+            (2018)</a><br>
+        <a href="filmes/osoutros.html" class="suspense">Os Outros (2001)</a><br>
+        <a href="filmes/ossuspeitos.html" class="suspense">Os Suspeitos (2013)</a><br>
+        <a href="filmes/osvingadores.html" class="super-heroi">Os Vingadores – The Avengers (2012)</a><br>
+        <hr>
+          <h2 class="letra">P</h2>
+        <a href="filmes/panico.html" class="terror">Pânico (1996)</a><br>
+        <a href="filmes/panico2.html" class="terror">Pânico 2 (1997)</a><br>
+        <a href="filmes/panico4.html" class="terror">Pânico 4 (2011)</a><br>
+        <a href="filmes/panico5.html" class="terror">Pânico 5 (2022)</a><br>
+        <a href="filmes/panteranegra.html" class="super-heroi">Pantera Negra (2018)</a><br>
+        <a href="filmes/panteranegrawakandaparasempre.html" class="super-heroi">Pantera Negra: Wakanda para Sempre
+            (2022)</a><br>
+        <a href="filmes/parasita.html" class="drama">Parasita (2019)</a><br>
+        <a href="filmes/pearl.html" class="drama">Pearl (2022)</a><br>
+        <a href="filmes/pequenamisssunshine.html" class="drama">Pequena Miss Sunshine (2006)</a><br>
+        <a href="filmes/percyjacksoneoladraoderaios.html" class="fantasia">Percy Jackson e o Ladrão de Raios
+            (2010)</a><br>
+        <a href="filmes/pinoquio.html" class="fantasia"> Pinóquio (1940)</a><br>
+        <a href="filmes/piratasdocaribeamaldicaodoperolanegra.html" class="fantasia">Piratas do Caribe: A Maldição do
+            Pérola Negra
+            (2003)</a><br>
+        <a href="filmes/piratasdocaribenofimdomundo.html" class="fantasia">Piratas do Caribe: No Fim do Mundo
+            (2007)</a><br>
+        <a href="filmes/piratasdocaribeobaudamorte.html" class="fantasia">Piratas do Caribe: O Baú da Morte
+            (2006)</a><br>
+        <a href="filmes/planetadosmacacosaguerra.html" class="ficcaocientifica">Planeta dos Macacos: A Guerra
+            (2017)</a><br>
+        <a href="filmes/planetadosmacacosaorigem.html" class="ficcaocientifica">Planeta dos Macacos: A Origem
+            (2011)</a><br>
+        <a href="filmes/planetadosmacacosoconfronto.html" class="ficcaocientifica">Planeta dos Macacos: O Confronto
+            (2014)</a><br>
+        <a href="filmes/pleasantville.html" class="fantasia">Pleasantville – A Vida em Preto em Branco (1998)</a><br>
+        <a href="filmes/pleasure.html" class="drama">Pleasure (2021)</a><br>
+        <a href="filmes/prendameseforcapaz.html" class="aventura">Prenda-Me se For Capaz (2002)</a><br>
+        <a href="filmes/procuraseamy.html" class="drama">Procura-se Amy (1997)</a><br>
+        <a href="filmes/procurandonemo.html" class="fantasia">Procurando Nemo (2003)</a><br>
+        <a href="filmes/projetox.html" class="comedia">Projeto X – Uma Festa Fora de Controle (2012)</a><br>
+        <a href="filmes/psicopataamericano.html" class="acao">Psicopata Americano (2000)</a><br>
+        <a href="filmes/psicose.html" class="terror">Psicose (1960)</a><br>
+        <a href="filmes/pulpfiction.html" class="acao">Pulp Fiction: Tempo de Violência (1994)</a><br>
+        <hr>
+        <h2 class="letra">Q</h2>
+        <a href="filmes/quase18.html" class="drama">Quase 18 (2016)</a><br>
+        <a href="filmes/quemquerserummilionario.html" class="drama">Quem Quer Ser um Milionário? (2008)</a><br>
+        <a href="filmes/queromatarmeuchefe.html" class="comedia">Quero Matar Meu Chefe (2011)</a><br>
+        <hr>  
+        <h2 class="letra">R</h2>
+        <a href="filmes/rainmain.html" class="drama">Rain Man (1988)</a><br>
+        <a href="filmes/raw.html" class="drama">Raw (2016)</a><br>
+        <a href="filmes/rec.html" class="terror">REC (2007)</a><br>
+        <a href="filmes/redcrescereumafera.html" class="fantasia">Red: Crescer é uma Fera (2022)</a><br>
+        <a href="filmes/requiemparaumsonho.html" class="drama">Requiem para um Sonho (2000)</a><br>
+        <a href="filmes/rickgervaishumanity.html" class="stand-up">Rick Gervais: Humanity (2018)</a><br>
+        <a href="filmes/rocketman.html" class="biografia">Rocketman (2019)</a><br>
+        <a href="filmes/rocky2.html" class="drama">Rocky II – A revanche (1979)</a><br>
+        <a href="filmes/rocky4.html" class="drama">Rocky IV (1985)</a><br>
+        <a href="filmes/rocky.html" class="drama">Rocky: Um Lutador (1976)</a><br>
+        <a href="filmes/rockybalboa.html" class="drama">Rocky Balboa (2006)</a><br>
+        <a href="filmes/rogueone.html" class="ficcaocientifica">Rogue One: Uma História Star Wars (2016)</a><br>
+        <a href="filmes/ruacloverfield10.html" class="suspense">Rua Cloverfield,10 (2016)</a><br>
+        <hr>
+        <h2 class="letra">S</h2>
+        <a href="filmes/scarface.html" class="acao">Scarface (1983)</a><br>
+        <a href="filmes/sebebernaocase.html" class="comedia">Se Beber, Não Case! (2009)</a><br>
+        <a href="filmes/sebebernaocase2.html" class="comedia">Se Beber, Não Case! Parte II (2011)</a><br>
+        <a href="filmes/setepsicopataseumshihtzu.html" class="comedia">Sete Psicopatas e um Shih Tzu (2012)</a><br>
+        <a href="filmes/se7en.html" class="suspense">Se7en – Os Sete Crimes Capitais (1995)</a><br>
+        <a href="filmes/serpico.html" class="drama">Serpico (1973)</a><br>
+        <a href="filmes/sextafeira13.html" class="terror">Sexta-Feira 13 (1980)</a><br>
+        <a href="filmes/sextafeira13parte2.html" class="terror">Sexta-Feira 13 – Parte 2 (1981)</a><br>
+        <a href="filmes/sextafeira13parte3.html" class="terror">Sexta-Feira 13 – Parte 3 (1982)</a><br>
+        <a href="filmes/sextafeiraemapuros.html" class="comedia">Sexta-Feira em Apuros (1995)</a><br>
+        <a href="filmes/shazam.html" class="super-heroi">Shazam (2019)</a><br>
+        <a href="filmes/shrek.html" class="fantasia">Shrek (2001)</a><br>
+        <a href="filmes/shrek2.html" class="fantasia">Shrek 2 (2004)</a><br>
+        <a href="filmes/shrekparasempre.html" class="fantasia">Shrek para Sempre (2010)</a><br>
+        <a href="filmes/shrekterceiro.html" class="fantasia">Shrek Terceiro (2007)</a><br>
+        <a href="filmes/simpsonsofilme.html" class="comedia">Simpsons: O Filme (2007)</a><br>
+        <a href="filmes/sorria.html" class="terror">Sorria (2022)</a><br>
+        <a href="filmes/spacejam.html" class="fantasia">Space Jam: O Jogo do Século (1996)</a><br>
+        <a href="filmes/speaknoevil.html" class="suspense">Speak No Evil (2022)</a><br>
+        <a href="filmes/springbreakers.html" class="acao">Spring Breakers: Garotas Perigosas (2012)</a><br>
+        <a href="filmes/starwars2.html" class="ficcaocientifica">Star Wars: Episódio 2 – Ataque dos Clones
+            (2002)</a><br>
+        <a href="filmes/starwars1.html" class="ficcaocientifica">Star Wars: Episódio I – A Ameaça Fantasma
+            (1999)</a><br>
+        <a href="filmes/starwars3.html" class="ficcaocientifica">Star Wars: Episódio III – A Vingança dos Sith
+            (2005)</a><br>
+        <a href="filmes/starwars4.html" class="ficcaocientifica">Star Wars: Episódio IV – Uma Nova Esperança
+            (1977)</a><br>
+        <a href="filmes/starwarsodespertardaforca.html" class="ficcaocientifica">Star Wars: O Despertar da Força
+            (2015)</a><br>
+        <a href="filmes/starwarsosultimosjedi.html" class="ficcaocientifica">Star Wars: Os Últimos Jedi (2017)</a><br>
+        <a href="filmes/supermariobrossofilme.html" class="fantasia">Super Mario Bros. O Filme (2023)</a><br>
+        <a href="filmes/superbad.html" class="comedia">Superbad – É Hoje (2007)</a><br>
+        <a href="filmes/supernature.html" class="stand-up">Supernature (2022)</a>
+        <hr>
+        <h2 class="letra">T</h2>
+        <a href="filmes/tar.html" class="drama">Tár (2022)</a><br>
+        <a href="filmes/taxidriver.html" class="drama">Taxi Driver – Motorista de Taxi (1976)</a><br>
+        <a href="filmes/terrifier.html" class="terror">Terrifier (2016)</a><br>
+        <a href="filmes/thebatman.html" class="super-heroi">The Batman (2022)</a><br>
+        <a href="filmes/theflash.html" class="super-heroi">The Flash (2023)</a><br>
+        <a href="filmes/theshallows.html" class="acao">The Shallows (2016)</a><br>
+        <a href="filmes/thewayback.html" class="drama">The Way Back (2020)</a><br>
+        <a href="filmes/thelmaandlouise.html" class="drama">Thelma & Louise (1991)</a><br>
+        <a href="filmes/thor.html" class="super-heroi">Thor (2011)</a><br>
+        <a href="filmes/thoramoretrovao.html" class="super-heroi">Thor: Amor e Trovão</a><br>
+        <a href="filmes/thorragnarok.html" class="super-heroi">Thor: Ragnarok (2017)</a><br>
+        <a href="filmes/topgun.html" class="acao">Top Gun – Ases Indomáveis (1986)</a><br>
+        <a href="filmes/topgunmaverick.html" class="acao">Top Gun: Maverick (2022)</a><br>
+        <a href="filmes/touroindomavel.html" class="drama">Touro Indomável (1980)</a><br>
+        <a href="filmes/toystory.html" class="fantasia">Toy Story (1995)</a><br>
+        <a href="filmes/toystory2.html" class="fantasia">Toy Story 2 (1999)</a><br>
+        <a href="filmes/toystory3.html" class="fantasia">Toy Story 3 (2010)</a><br>
+        <a href="filmes/trainspotting.html" class="drama">Trainspotting – Sem Limites (1996)</a><br>
+        <a href="filmes/transformers.html" class="ficcaocientifica">Transformers (2007)</a><br>
+        <a href="filmes/tresanunciosparaumcrime.html" class="drama">Três Anúncios para um Crime (2017)</a><br>
+        <a href="filmes/tropadeelite.html" class="acao">Tropa de Elite (2007)</a><br>
+        <a href="filmes/tropadeelite2.html" class="acao">Tropa de Elite 2: O Inimigo Agora é Outro (2010)</a><br>
+        <a href="filmes/truquedemestre.html" class="acao">Truque de Mestre (2013)</a><br>
+        <a href="filmes/truquedemestre2.html" class="acao">Truque de Mestre 2 (2016)</a>
+        <hr>
+          <h2 class="letra">U</h2>
+        <a href="filmes/umcontratempo.html" class="suspense">Um Contratempo (2016)</a><br>
+        <a href="filmes/umdiadecao.html" class="drama">Um Dia de Cão (1975)</a><br>
+        <a href="filmes/umestranhononinho.html" class="drama">Um Estranho no Ninho (1975)</a><br>
+        <a href="filmes/umlugarsilencioso.html" class="terror">Um Lugar Silencioso (2018)</a><br>
+        <a href="filmes/umsonhodeliberdade.html" class="drama">Um Sonho de Liberdade (1994)</a><br>
+        <a href="filmes/umagarotademuitasorte.html" class="drama">Uma Garota de Muita Sorte (2022)</a><br>
+        <a href="filmes/umanoitealucinante.html" class="terror">Uma Noite Alucinante: A Morte do Demônio (1981)</a><br>
+        <a href="filmes/upaltasventuras.html" class="aventura">Up: Altas Aventuras (2009)</a>
+        <hr>
+        <h2 class="letra">V</h2>
+        <a href="filmes/vdevinganca.html" class="drama">V de Vingança (2005)</a><br>
+        <a href="filmes/vhs.html" class="terror">V/H/S (2012)</a><br>
+        <a href="filmes/velozesandfuriosos7.html" class="acao">Velozes & Furiosos 7 (2015)</a><br>
+        <a href="filmes/velozesefuriosos.html" class="acao">Velozes e Furiosos (2001)</a><br>
+        <a href="filmes/velozesefuriosos4.html" class="acao">Velozes e Furiosos 4 (2009)</a><br>
+        <a href="filmes/velozesefuriososdesafioemtoquio.html" class="acao">Velozes e Furiosos: Desafio em Tóquio
+            (2006)</a><br>
+        <a href="filmes/vicioinerente.html" class="suspense">Vício Inerente (2014)</a><br>
+        <a href="filmes/vidro.html" class="suspense">Vidro (2019)</a><br>
+        <a href="filmes/vingadoreseradeultron.html" class="super-heroi">Vingadores: Era de Ultron (2015)</a><br>
+        <a href="filmes/vingadoresguerrainfinita.html" class="super-heroi">Vingadores: Guerra Infinita (2018)</a><br>
+        <a href="filmes/vingadoresultimato.html" class="super-heroi">Vingadores: Ultimato (2019)</a><br>
+        <a href="filmes/vizinhos.html" class="comedia">Vizinhos (2014)</a><br>
+        <a href="filmes/voceeoproximo.html" class="terror">Você é o Próximo (2011)</a>
+        <hr>
+        <h2 class="letra">W</h2>
+        <a href="filmes/walle.html" class="ficcaocientifica">WALL-E (2008)</a><br>
+        <a href="filmes/watchmenofilme.html" class="acao">Watchmen – O Filme (2009)</a><br>
+        <a href="filmes/whiplash.html" class="drama">Whiplash: Em Busca da Perfeição (2014)</a>
+        <hr>
+        <h2 class="letra">X</h2>
+        <a href="filmes/xamarcadamorte.html" class="terror">X – A Marca da Morte (2022)</a><br>
+        <a href="filmes/xmenofilme.html" class="super-heroi">X-Men – O Filme (2000)</a><br>
+        <a href="filmes/xmen2.html" class="super-heroi">X-Men 2 (2003)</a><br>
+        <a href="filmes/xmendiasdeufuturoesquecido.html" class="super-heroi">X-Men: Dias de Um Futuro Esquecido
+            (2014)</a><br>
+        <a href="filmes/xmenprimeiraclasse.html" class="super-heroi">X-Men: Primeira Classe (2011)</a>
+        <hr>
+        <h2 class="letra">Y</h2>
+        <hr>
+        <h2 class="letra">Z</h2>
+        <a href="filmes/zodiaco.html" class="suspense">Zodíaco (2007)</a><br>
+        <a href="filmes/zootopia.html" class="fantasia">Zootopia: Essa Cidade é o Bicho (2016)</a><br>
+        <a href="filmes/zumbilandia.html" class="comedia">Zumbilândia (2009)</a><br>
+        <a href="filmes/zumbilandiaatireduasvezes.html" class="comedia">Zumbilândia: Atire Duas Vezes (2019)</a>
+    </div>
+
+
+
+
+</body>
+
+</html>

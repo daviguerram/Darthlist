@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora&family=Roboto+Slab:wght@300&display=swap');
+
+body {
+
+    background: black;
+    line-height: 2.5;
+    font-family: 'Lora', serif;
+    font-family: 'Roboto Slab', serif;
+}
+
+a.assistido {
+    color: red;
+}
+
+.aviso {
+    color: white;
+    font-size: 15px;
+}
+
+h1 {
+    font-size: 60px;
+}
+
+h2 {
+    color: white;
+}
+
+.sub {
+    font-size: 28px;
+    text-align: center;
+}
+
+.sub1 {
+    font-size: 35px;
+    margin-bottom: 30px;
+}
+
+
+.letra {
+    font-size: 30px;
+    text-align: left;
+}
+
+
+header {
+    text-align: center;
+    color: white;
+}
+
+div {
+    color: white;
+    font-size: 17px;
+    padding-left: 0.5%;
+    padding-right: 0.5%;
+}
+
+.oi {
+    text-align: center;
+}
+
+.ano,
+.duracao,
+.genero {
+    display: inline-block;
+    margin-right: 30px;
+    font-size: 20px;
+
+}
+
+.aaa {
+    display: inline-block;
+    width: 100 px;
+    height: 100 px;
+    border: 2 px solid white;
+}
+
+a {
+    color: white;
+    font-size: 18px;
+}
+
+
+h3 {
+    color: white;
+    font-size: 18px;
+    display: inline-block;
+}
+
+p {
+    color: white;
+    font-size: 18px;
+}
+
+img {
+    width: 550px;
+    height: 335px;
+    padding-left: 29%;
+    padding-top: 1.5%;
+}
+
+.hi {
+    margin-left: 100px;
+}
